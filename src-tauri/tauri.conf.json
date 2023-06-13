@@ -72,6 +72,9 @@
       "dialog": {
         "all": true
       },
+      "fs": {
+        "readFile": true
+      },
       "shell": {
         "open": true
       }
