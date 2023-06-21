@@ -49,7 +49,6 @@ jobs:
 
           # NEW_VERSION: install new holochain version and copy its binary to the tauri path
 
-
       - name: setup binaries (macos only)
         if: matrix.platform == 'macos-11'
         run: |
