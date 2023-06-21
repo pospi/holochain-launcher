@@ -139,7 +139,7 @@ jobs:
           CertUtil -hashfile "D:\a\launcher\launcher\target\release\bundle/msi/Holochain Launcher Beta 3_0.10.970_x64_en-US.msi.zip" SHA256
           CertUtil -hashfile "D:\a\launcher\launcher\target\release\bundle/msi/Holochain Launcher Beta 3_0.10.970_x64_en-US.msi.zip.sig" SHA256
 
-        env:
+        # env:
         #   TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY_0_2 }}
         #   TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
 
